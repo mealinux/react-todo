@@ -1,6 +1,14 @@
-This is To-Do App with NextJS
+### This is To-Do App with NextJS
 
-run the development server:
+first:
+
+```
+npm install
+# or
+yarn
+```
+
+then run the development server:
 
 ```
 npm run dev
