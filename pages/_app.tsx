@@ -1,6 +1,6 @@
 import type { AppProps } from 'next/app'
 import React, { useState } from 'react';
-import ListContext from './components/List-context';
+import ListContext from '../components/ListContext';
 import '../styles/globals.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 

@@ -1,12 +1,12 @@
 import { NextPage } from 'next';
-import Todoadd from './todo/Todoadd';
-import Todolist from './todo/Todolist';
+import TodoAdd from '../components/todo/TodoAdd';
+import TodoList from '../components/todo/TodoList';
 
 const Todo: NextPage = () => {
 
   return (<div className='container'>
     <div className='list-box'>
-      <Todoadd /> <hr /><Todolist />
+      <TodoAdd /> <hr /><TodoList />
     </div>
   </div>);
 }
