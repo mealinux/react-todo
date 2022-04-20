@@ -1,0 +1,32 @@
+html,
+body {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: auto;
+}
+
+.list-box {
+  margin-top: 50px;
+  min-width: 600px;
+  max-width: 750px;
+  min-height: 400px;
+  background-color: #222831;
+  border-radius: 12px;
+  padding: 30px 15px 10px 15px;
+}
+
+.list-box * {
+  margin-bottom: 5px;
+}
+
+.include-buttons {
+  display: flex;
+  justify-content: center;
+}
